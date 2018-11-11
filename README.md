@@ -1,6 +1,6 @@
 # vuex-study
 
-> A Vue.js project
+> 这就是一个 vuex 的 demo
 
 ## Build Setup
 
