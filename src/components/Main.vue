@@ -23,8 +23,8 @@ export default {
       this.msg1 = str
     },
 
-    premove () {
-      console.log(this.$refs.myB.msg)
+    modify () {
+      this.$refs.myB.msg = '通过$refs修改了B组件的msg属性'
     }
   },
 
@@ -34,7 +34,7 @@ export default {
   },
 
   mounted() {
-    this.premove()
+    this.modify()
   },
 }
 </script>

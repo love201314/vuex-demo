@@ -19,10 +19,13 @@ export default {
 
   methods: {
     add () {
-      this.$emit('pAdd', this.msg)
+      // this.$emit('pAdd', this.msg)
+      this.$parent.pAdd(this.msg)
+
     },
     remove () {
       this.$store.commit('remove', 2)
+      console.log(this.$parent.msg1)
     }
   },
 
