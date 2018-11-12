@@ -1,6 +1,6 @@
 # vuex-study
 
-> 这就是一个 vuex 的 demo
+> 这就是一个父子组件和vuex的demo
 
 ## Build Setup
 
